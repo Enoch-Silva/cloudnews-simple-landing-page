@@ -1,0 +1,157 @@
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.situation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.situation h2 {
+  margin: 10px 15px 0 10px;
+  font-size: 30px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.situationLinks {
+  width: 100%;
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.situationLinks a {
+  margin: 0 10px;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #006eff;
+}
+.headlines {
+  width: 100%;
+  display: flex;
+}
+.headlines h3,
+.headlines h4,
+.headlines p {
+  color: #fff;
+}
+.headlineLeft {
+  width: 60%;
+  height: 26em;
+  padding: 10px;
+}
+.topNotice {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  background: url("/src/assets/img/2\ \(4\).jpg") no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: color;
+} 
+.headlineRight {
+  width: 40%;
+  height: 26em;
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+.notice,
+.notice2,
+.notice3 {
+  width: 97%;
+  height: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+}
+.notice h4,
+.notice2 h4,
+.notice3 h4 {
+  margin: 0 10px 10px;
+}
+.topUp {
+  width: 100%;
+  height: 70%;
+  background: none;
+}
+.topDown {
+  height: 30%;
+  padding: 0 20px;
+  background: none;
+}
+.notice {
+  background: url("/src/assets/img/Paris_-_Las_Vegas.jpg") no-repeat center
+    center/cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: color;
+}
+.notice2 {
+  background: url("/src/assets/img/Medical_evacuation.jpg") no-repeat center
+    center/cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: color;
+}
+.notice3 {
+  background: url("/src/assets/img/Hollywood_boulevard_from_kodak_theatre.jpg")
+    no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: color;
+}
+.topRated {
+  width: 100%;
+  height: 25em;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  background: #101f34;
+}
+.topRated h1 {
+  color: #fff;
+  margin: 0 10px 20px 10px;
+}
+.topRatedContent {
+  display: flex;
+  justify-content: space-around;
+}
+.topRatedContent h4 {
+  color: #fff;
+  margin-top: 10px;
+}
+.topRatedOne,
+.topRatedTwo,
+.topRatedThree {
+  width: 30%;
+  height: 21em;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.TopRatedOneCover,
+.TopRatedTwoCover,
+.TopRatedThreeCover {
+  width: 100%;
+  height: 85%;
+}
+.TopRatedOneCover {
+  background: url("/src/assets/img/helicopters_CH-53E.jpg") no-repeat center
+    center/cover;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: color;
+}
+.TopRatedTwoCover {
+  background: url("/src/assets/img/Calvin_Klein_-_Euphoria.jpg") no-repeat
+    center center/cover;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: color;
+}
+.TopRatedThreeCover {
+  background: url("/src/assets/img/94\ \(3\).jpg") no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: color;
+}

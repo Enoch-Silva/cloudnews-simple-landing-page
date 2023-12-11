@@ -1,0 +1,41 @@
+:root {
+  font-family: Roboto;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #fff;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(/src/assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto_Bold;
+  src: url(/src/assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Hello_Valentina;
+  src: url(/src/assets/fonts/Hello\ Valentina.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Roboto_Bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 13px;
+}

@@ -1,0 +1,112 @@
+.aditionalContent {
+  max-width: 100%;
+  height: 100vh;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.aditionalContent h4 {
+  color: #0e66da;
+}
+.aditionalContent p {
+  color: #353535;
+}
+.aditionalContent img {
+  cursor: pointer;
+}
+.aditionalAll h1 {
+  margin: 20px;
+  color: #02224b;
+}
+
+.aditionalAll h5,
+.aditionalAll h4,
+.aditionalAll p {
+  margin: 10px 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.aditional1,
+.aditional2,
+.aditional3,
+.aditional4,
+.aditional5,
+.aditional6 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: 1px solid #ccc;
+  box-shadow: 0 0.2em 0.1em rgba(0, 0, 0, 0.1);
+}
+.addNoticeCover1 {
+  width: 40%;
+  height: 100%;
+  background: url("/src/assets/img/37\ \(2\).jpg") no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: color;
+}
+.addNoticeCover2 {
+  width: 40%;
+  height: 100%;
+  background: url("/src/assets/img/001.jpg") no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: color;
+}
+.addNoticeCover3 {
+  width: 40%;
+  height: 100%;
+  background: url("/src/assets/img/30\ \(4\).jpg") no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: color;
+}
+.addNoticeCover4 {
+  width: 40%;
+  height: 100%;
+  background: url("/src/assets/img/93\ \(2\).jpg") no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: color;
+}
+.addNoticeCover5 {
+  width: 40%;
+  height: 100%;
+  background: url("/src/assets/img/Dallas\,_Texas.jpg") no-repeat center
+    center/cover;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: color;
+}
+.addNoticeCover6 {
+  width: 40%;
+  height: 100%;
+  background: url("/src/assets/img/Hollywood_boulevard_from_kodak_theatre.jpg")
+    no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: color;
+}
+.addNotice {
+  width: 60%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.addBottom {
+  width: 100%;
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addBottom h3 {
+  font-size: 13px;
+  color: #0e66da;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #0e66da;
+}
+.addBottom h3:hover {
+  background: #0e66da;
+  color: #fff;
+}
